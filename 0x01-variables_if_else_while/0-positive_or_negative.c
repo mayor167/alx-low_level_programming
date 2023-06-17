@@ -5,7 +5,7 @@
 /*
  * betty style doc for function main goes there
  *
- * main -Determine if a number is positive,negative or zero.
+ * main -This program assigns a random number to the variable n and print
  *
  * Return: 0 (Success)
  */
