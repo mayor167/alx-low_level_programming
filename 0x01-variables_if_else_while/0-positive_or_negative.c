@@ -4,9 +4,9 @@
 /* more headers goes there */
 /*
  * betty style doc for function main goes there
- * main - A program that prints randon  number to the standard output
+ * main -A program that  determines if a random number is positive or negative
  * Return: 0 (Success)
- */
+ *
 
 int main(void)
 {
