@@ -4,13 +4,14 @@
 /* more headers goes there */
 /*
  * betty style doc for function main goes there
- * main -A program that  determines if a random number is positive or negative
+ * main - Determine if a number is positive, negative or zero.
  * Return: 0 (Success)
  */
 
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
