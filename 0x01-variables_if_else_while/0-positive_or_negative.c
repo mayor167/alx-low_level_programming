@@ -4,7 +4,9 @@
 /* more headers goes there */
 /*
  * betty style doc for function main goes there
- * main - Determine if a number is positive, negative or zero.
+ *
+ * main -Determine if a number is positive,negative or zero.
+ *
  * Return: 0 (Success)
  */
 
