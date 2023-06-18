@@ -17,6 +17,6 @@ else
 putchar(num_in_b16 + 'a');
 }
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
