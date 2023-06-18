@@ -1,8 +1,8 @@
 #include <stdio.h>
-/*
- * main -A program that prints all number in base 16
+/**
+ *main - A program that prints all number in base 16
  *
- * Return: 0 (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
