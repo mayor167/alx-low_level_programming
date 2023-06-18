@@ -10,11 +10,11 @@ for (num_in_b16 = 0; num_in_b16 < 16; num_in_b16++)
 {
 if (num_in_b16 <= 9)
 {
-putchar(num_in_b16);
+putchar(num_in_b16 + '0');
 }
 else
 {
-putchar(num_in_b16);
+putchar(num_in_b16 + 'a');
 }
 }
 putchar('\n')
