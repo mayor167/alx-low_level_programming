@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdlib.h>
 /* more headers goes there */
-/*
- *betty style doc for function main goes there
- *main: Program checks random number if it is last digit and prints
- * Return: 0 (success)
+/**
+ *main -A program checks random number if it is last digit and prints
  *
+ * Return: 0 (success)
  */
 
 int main(void)
