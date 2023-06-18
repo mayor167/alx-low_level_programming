@@ -8,9 +8,9 @@ int main(void)
 int singleDigit;
 for (singleDigit = 0; singleDigit < 10; singleDigit++)
 {
-putchar(singleDigit);
+int visibleInt = singleDigit + '0';
+putchar(visibleInt);
 }
-fflush(stdout);
 putchar('\n');
 return (0);
 }
