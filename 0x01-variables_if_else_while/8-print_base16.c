@@ -15,7 +15,7 @@ putchar(num_in_b16 + '0');
 }
 else
 {
-putchar(num_in_b16 + 'a');
+putchar(num_in_b16 - 10 + 'a');
 }
 }
 putchar('\n');
