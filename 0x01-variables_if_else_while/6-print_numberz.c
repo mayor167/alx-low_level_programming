@@ -10,6 +10,6 @@ for (singleDigit = 0; singleDigit < 10; singleDigit++)
 {
 putchar(singleDigit);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
