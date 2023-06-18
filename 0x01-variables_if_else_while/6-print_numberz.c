@@ -10,7 +10,7 @@ for (singleDigit = 0; singleDigit < 10; singleDigit++)
 {
 putchar(singleDigit);
 }
-putchar('\n');
 fflush(stdout);
+putchar('\n');
 return (0);
 }
