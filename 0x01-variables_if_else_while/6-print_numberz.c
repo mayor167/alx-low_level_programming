@@ -8,8 +8,8 @@ int main(void)
 int singleDigit;
 for (singleDigit = 0; singleDigit < 10; singleDigit++)
 {
-putchar(singleDigit);
+putchar(singleDigit + '\n');
 }
-putchar('\n');
+/*putchar('\n');*/
 return (0);
 }
