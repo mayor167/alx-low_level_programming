@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main: A program that prints alphabets in lowercase and excludes some
+/**
+ * main -A program that prints alphabets in lowercase and excludes some
  * Return: 0 (Success)
  */
 int main(void)
