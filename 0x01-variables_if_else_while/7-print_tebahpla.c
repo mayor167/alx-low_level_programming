@@ -1,6 +1,7 @@
 #include <stdio.h>
-/*
- * Main:A program that print alphabet in reversed form
+/**
+ * main -A program that print alphabet in reversed form
+ *
  * Return: 0 (Success)
  */
 int main(void)
