@@ -11,6 +11,9 @@ int main(void)
 
 	for (i = 0; i < 10; i++)
 	{
+	putchar(',');
+	putchar(' ');
+	}
 	for (j = 0; j < 10; j++)
 	{
 		if (i == j)
@@ -18,9 +21,6 @@ int main(void)
 		else
 		putchar(i + '0');
 		putchar(j + '0');
-	}
-	putchar(',');
-	putchar(' ');
 	}
 	putchar('\n');
 	return (0);
