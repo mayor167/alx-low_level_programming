@@ -8,23 +8,20 @@
 int  main(void)
 {
 	int count;
-	char mult_of_3[] = "Fizz";
-	char mult_of_5[] = "Buzz";
-	char mult_of_5_and_3 = "FizzBuzz";
 
 	for (count = 1; count <= 100; count++)
 	{
 		if (count % 3 == 0)
 		{
-			printf("%s", mult_of_3);
+			printf("Fizz");
 		}
 		else if (count % 5 == 0)
 		{
-			printf("%s", mult_of_5);
+			printf("Buzz");
 		}
 		else if (count % 5 == 0 && count % 3 == 0)
 		{
-			printf("%s", mult_of_5_and_3);
+			printf("FizzBuzz");
 		}
 		else
 		{
@@ -33,4 +30,5 @@ int  main(void)
 		putchar(' ');
 	}
 	putchar('\n');
+	return (0);
 }
