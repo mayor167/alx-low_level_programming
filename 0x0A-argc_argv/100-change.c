@@ -63,7 +63,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	else
 	{
-		coin = coinConverter(i);
+		coin = convert_coin(i);
 
 		printf("%d\n", coin);
 	}
