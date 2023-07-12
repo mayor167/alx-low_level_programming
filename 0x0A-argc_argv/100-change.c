@@ -7,7 +7,7 @@
 /**
  * convert_coin - A function that does all the manipulation
  * @i: variable to be considered here
- * Return: The number of minimun coins needed 
+ * Return: The number of minimun coins needed
  */
 int convert_coin(int i)
 {
