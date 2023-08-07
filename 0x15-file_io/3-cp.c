@@ -7,8 +7,8 @@ void write_error(char *filename);
 
 /**
  * main -This func copies the content of a file to another file.
- * @argc: argument counter to be considered.
- * @argv: argument vector to be considered.
+ * @argc: arg counter to be used.
+ * @argv: arg vector to be used.
  * Return:(0)
  */
 int main(int argc, char *argv[])
@@ -35,7 +35,6 @@ int main(int argc, char *argv[])
 		close_error(fd_file_from);
 		exit(99);
 	}
-
 	while (bytes_counted)
 	{
 		bytes_counted = read(fd_file_from, buffer, 1024);
@@ -68,6 +67,11 @@ int main(int argc, char *argv[])
 	return (0);
 }
 
+/**
+ * close_error -this func closes a file descriptor, check for a possible error.
+ * @fd: file descriptor for file to be closed.
+ * Return: (1) if fd closes, (-1) if fd cannot be closed.
+ */
 int close_error(int fd)
 {
 	int close_output;
@@ -78,11 +82,19 @@ int close_error(int fd)
 	return (close_output);
 }
 
+/**
+ * read_error -This func prints the read error.
+ * @filename: filename.
+ */
 void read_error(char *filename)
 {
 	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", filename);
 }
 
+/**
+ * write_error -This func prints the write error.
+ * @filename: filename.
+ */
 void write_error(char *filename)
 {
 	dprintf(STDERR_FILENO, "Error: Can't write to %s\n", filename);
